@@ -7,7 +7,7 @@ http://www.templatemo.com/tm-498-stimulus
 */
 
 body {
-	background: #ffffff;
+	background: #f9f2eb;
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
 	font-weight: 300;
@@ -52,8 +52,8 @@ h3 {
 }
 
 h4 {
-  color: #999;
-  font-size: 12px;
+  color: #706f6f;
+  font-size: 15px;
   font-weight: normal;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -61,7 +61,7 @@ h4 {
 }
 
 h5 {
-  color: #666666;
+  color: #4c4b4b;
 }
 
 strong {
@@ -70,8 +70,8 @@ strong {
 }
 
 p {
-    color: #888;
-    font-size: 16px;
+    color: #6b6969;
+    font-size: 18.5px;
     font-weight: 300;
     line-height: 28px;
     letter-spacing: 0.2px;
@@ -92,7 +92,7 @@ p {
 }
 
 .section-btn:hover {
-  background: #E3AE57;
+  background: #cf854d;
   border-color: transparent;
   color: #ffffff;
 }
@@ -144,7 +144,7 @@ footer {
 
 #experience,
 #education {
-  background: #E9724C;
+  background: #e9724c;
 }
 
 .background-image {
@@ -165,7 +165,7 @@ footer {
 }
 
 .color-yellow {
-  color: #E3AE57;
+  color: #c59547;
 }
 
 .bg-yellow {
@@ -177,7 +177,7 @@ footer {
 }
 
 .bg-dark {
-  background: #161616;
+  background: #171717;
 }
 
 
@@ -297,7 +297,7 @@ a:hover, a:active, a:focus {
 
 .custom-navbar .nav li a:hover {
     background: transparent;
-    color: #E3AE57;
+    color: #c59242;
 }
 
 .custom-navbar .navbar-nav > li > a:hover,
@@ -307,7 +307,7 @@ a:hover, a:active, a:focus {
 
 .custom-navbar .nav li.active > a {
     background-color: transparent;
-    color: #E3AE57;
+    color: #c08f42;
 }
 
 .custom-navbar .navbar-toggle {
@@ -349,14 +349,14 @@ a:hover, a:active, a:focus {
 }
 
 #home .col-md-6 {
-  background: #f1e2d7;
+  background: #ebcab3;
 /* light blue color: #c3eafd; */
   padding-right: 0;
   padding-left: 0;
 }
 
 #home .home-img {
-  background: url('../images/home-img.jpg') no-repeat;
+  background: url('../images/home-img-2.jpg') no-repeat;
   background-size: cover;
   background-position: 50% 50%;
   width: 100%;
@@ -383,7 +383,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #about .about-img {
-    background: url('../images/about-img.jpg') no-repeat;
+    background: url('../images/about-img-2.jpg') no-repeat;
 }
 
 #about .about-thumb,
@@ -416,7 +416,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #service {
-  background: #E9724C;
+  background: #e9724c;
 }
 
 #service p {
@@ -440,7 +440,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #experience .experience-img {
-  background: url('../images/experience-img.jpg') no-repeat;
+  background: url('../images/experience-img-2.jpg') no-repeat;
 }
 
 #experience .media-heading {
@@ -466,7 +466,7 @@ a:hover, a:active, a:focus {
 }
 
 #education .education-img {
-  background: url('../images/education-img.jpg') no-repeat;
+  background: url('../images/education-img-2.jpg') no-repeat;
 }
 
 #education .media-heading {
@@ -533,7 +533,7 @@ a:hover, a:active, a:focus {
 }
 
 #contact .contact-img {
-  background: url('../images/contact-img.jpg') no-repeat;
+  background: url('../images/contact-img-2.jpg') no-repeat;
   min-height: 75vh;
 }
 
