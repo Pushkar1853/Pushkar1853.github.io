@@ -142,9 +142,12 @@ footer {
   text-align: center;
 }
 
-#experience,
-#education {
-  background: #e9724c;
+#experience {
+  background: #e29056ee;
+}
+
+#education{
+  background: #E3AE57;
 }
 
 .background-image {
@@ -166,6 +169,14 @@ footer {
 
 .color-yellow {
   color: #c59547;
+}
+
+.color-orange {
+  color: #e9724c;
+}
+
+.bg-orange {
+  background: #e9724c;
 }
 
 .bg-yellow {
@@ -443,6 +454,18 @@ a:hover, a:active, a:focus {
   background: url('../images/experience-img-2.jpg') no-repeat;
 }
 
+#experience .experience-img-2 {
+  background: url('../images/experience-2-img.jpeg') no-repeat;
+}
+
+#experience .experience-img-3 {
+  background: url('../images/experience-3.jpeg') no-repeat;
+}
+
+#experience .experience-img-4 {
+  background: url('../images/experience-4.jpeg') no-repeat;
+}
+
 #experience .media-heading {
   margin-bottom: 0px;
 }
@@ -466,7 +489,7 @@ a:hover, a:active, a:focus {
 }
 
 #education .education-img {
-  background: url('../images/education-img-2.jpg') no-repeat;
+  background: url('../images/education-img-3.jpeg') no-repeat;
 }
 
 #education .media-heading {
@@ -692,6 +715,12 @@ footer {
     position: relative;
     min-height: 65vh;
   }
+
+  .background-image-2 {
+    position: right;
+    min-height: 65vh;
+  }
+
 }
 
 @media only screen and (max-width: 1024px) {
