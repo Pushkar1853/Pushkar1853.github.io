@@ -513,7 +513,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #quotes {
-    background: url('../images/quotes-bg.jpg') 50% 0 repeat-y fixed;
+    background: url('../images/Alphafold-1.png') 50% 0 repeat-y fixed;
     background-size: cover;
     background-position: center center;
     color: #ffffff;
@@ -556,7 +556,7 @@ a:hover, a:active, a:focus {
 }
 
 #contact .contact-img {
-  background: url('../images/contact-img-2.jpg') no-repeat;
+  background: url('../images/Cancer-therapy.jpeg') no-repeat;
   min-height: 75vh;
 }
 
