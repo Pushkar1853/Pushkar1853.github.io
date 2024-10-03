@@ -508,7 +508,7 @@ a:hover, a:active, a:focus {
 }
 
 #experience .experience-img-2 {
-  background: url('../images/Utah-Ground-truth.png') no-repeat;
+  background: url('../images/Utah-Ground-truth2.jpeg') no-repeat;
   background-position: 50% 50% !important;
   background-size: cover !important;
   width: 100%;
@@ -523,7 +523,7 @@ a:hover, a:active, a:focus {
 
 #experience .experience-img-2::after {
   content: "";
-  background: url('../images/Unet-pred.png') no-repeat;
+  background: url('../images/Unet-pred2.jpeg') no-repeat;
   background-position: 50% 50% !important;
   background-size: cover !important;
   width: 100%;
