@@ -24,9 +24,24 @@ html,body {
     Typorgraphy              
 -----------------------------------------*/
 
-h1,h2,h3,h4,h5,h6 {
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 65px;
+}
+
+.dm-sans-400 {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1,h2,h3,h5,h6 {
   font-style: normal;
   font-weight: 300;
+  font-family: 'Source Serif 4', serif;
 }
 
 h1,h2,h3 {
@@ -58,6 +73,7 @@ h4 {
   letter-spacing: 2px;
   text-transform: uppercase;
   padding-top: 6px;
+  font-family: 'DM Sans';
 }
 
 h5 {
@@ -70,7 +86,7 @@ strong {
 }
 
 p {
-    color: #585858;
+    color: #3f3f3fd3;
     font-size: 18.5px;
     font-weight: 300;
     line-height: 28px;
@@ -207,6 +223,7 @@ a {
   -o-transition: 0.5s;
   transition: 0.5s;
   text-decoration: none !important;
+  /* font-family: 'DM Sans'; */
 }
 a:hover, a:active, a:focus {
   color: #E3AE57;
@@ -455,15 +472,151 @@ a:hover, a:active, a:focus {
 }
 
 #experience .experience-img-2 {
-  background: url('../images/experience-2-img.jpeg') no-repeat;
+  background: url('../images/Utah-Ground-truth.png') no-repeat;
+  background-position: 50% 50% !important;
+  background-size: cover !important;
+  width: 100%;
+  height: 100%;
+  min-height: 80vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#experience .experience-img-2::after {
+  content: "";
+  background: url('../images/Unet-pred.png') no-repeat;
+  background-position: 50% 50% !important;
+  background-size: cover !important;
+  width: 100%;
+  height: 100%;
+  min-height: 80vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  filter: blur(10px); /* Start with blur */
+  transition: opacity 1s ease, filter 1s ease;
+}
+
+#experience .experience-img-2:hover::after {
+  opacity: 1;
+  filter: blur(0); /* Remove blur on hover */
 }
 
 #experience .experience-img-3 {
-  background: url('../images/experience-3.jpeg') no-repeat;
+  background: url('../images/huggingface-work.jpg') no-repeat;
+  background-position: 50% 50% !important;
+  background-size: cover !important;
+  width: 100%;
+  height: 100%;
+  min-height: 80vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#experience .experience-img-3::after {
+  content: "";
+  background: url('../images/hf-working.png') no-repeat;
+  background-position: 50% 50% !important;
+  background-size: cover !important;
+  width: 100%;
+  height: 100%;
+  min-height:80vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  filter: blur(10px); /* Start with blur */
+  transition: opacity 1s ease, filter 1s ease;
+}
+
+#experience .experience-img-3:hover::after {
+  opacity: 1;
+  filter: blur(0); /* Remove blur on hover */
 }
 
 #experience .experience-img-4 {
   background: url('../images/experience-4.jpeg') no-repeat;
+  background-position: 50% 50% !important;
+  background-size: cover !important;
+  width: 100%;
+  height: 100%;
+  min-height: 80vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#experience .experience-img-4::after {
+  content: "";
+  background: url('../images/mml-new.jpeg') no-repeat;
+  background-position: 50% 50% !important;
+  background-size: cover !important;
+  width: 100%;
+  height: 100%;
+  min-height: 80vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  filter: blur(10px); /* Start with blur */
+  transition: opacity 1s ease, filter 1s ease;
+}
+
+#experience .experience-img-4:hover::after {
+  opacity: 1;
+  filter: blur(0); /* Remove blur on hover */
+}
+
+#experience .experience-img-5 {
+  background: url('../images/media-work.png') no-repeat;
+  background-position: 50% 50% !important;
+  background-size: cover !important;
+  width: 100%;
+  height: 100%;
+  min-height: 74vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#experience .experience-img-5::after {
+  content: "";
+  background: url('../images/tuim-work.png') no-repeat;
+  background-position: 50% 50% !important;
+  background-size: cover !important;
+  width: 100%;
+  height: 100%;
+  min-height: 80vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  filter: blur(10px); /* Start with blur */
+  transition: opacity 1s ease, filter 1s ease;
+}
+
+#experience .experience-img-5:hover::after {
+  opacity: 1;
+  filter: blur(0); /* Remove blur on hover */
 }
 
 #experience .media-heading {
@@ -489,7 +642,13 @@ a:hover, a:active, a:focus {
 }
 
 #education .education-img {
-  background: url('../images/education-img-3.jpeg') no-repeat;
+  background: url('../images/education-img-3.jpeg') ;
+  /* background-size: cover; */
+  /* background-position: 120% 120%; */
+  width: 100%;
+  height: 50%;
+  min-height: 75vh;
+  position: absolute;
 }
 
 #education .media-heading {
@@ -717,7 +876,7 @@ footer {
   }
 
   .background-image-2 {
-    position: right;
+    position: relative;
     min-height: 65vh;
   }
 
