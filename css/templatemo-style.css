@@ -107,6 +107,10 @@ p {
   text-transform: uppercase;
 }
 
+.center {
+  align-items: center;
+}
+
 .section-btn:hover {
   background: #cf854d;
   border-color: transparent;
@@ -132,6 +136,7 @@ p {
 #service,
 #experience,
 #education,
+#awards,
 #contact {
   position: relative;
 }
@@ -140,6 +145,7 @@ p {
 #about .container, 
 #experience .container,
 #service .container,
+#awards .container,
 #education .container,
 #contact .container {
   width: 100%;
@@ -148,7 +154,8 @@ p {
 }
 
 #experience .experience-thumb,
-#education .education-thumb  {
+#awards .awards-thumb,
+#education .education-thumb {
   padding: 22px 42px 42px 42px;
 }
 
@@ -187,6 +194,10 @@ footer {
   color: #c59547;
 }
 
+.color-black {
+  color: #000000;
+}
+
 .color-orange {
   color: #e9724c;
 }
@@ -199,8 +210,20 @@ footer {
   background: #E3AE57;
 }
 
+.bg-red {
+  background: #ce2e3f;
+}
+
 .bg-white {
   background: #ffffff;
+}
+
+.bg-pink{
+  background: #f87b7b;
+}
+
+.bg-midpink{
+  background: #e24958;
 }
 
 .bg-dark {
@@ -461,6 +484,19 @@ a:hover, a:active, a:focus {
   padding-bottom: 22px;
 }
 
+#service .service-img-3 {
+  background: url('../images/Proteosynth.png') no-repeat;
+  background-position: 50% 50% !important;
+  background-size: cover !important;
+  width: 100%;
+  height: 100%;
+  min-height: 75vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
 
 
 /*---------------------------------------
@@ -665,6 +701,63 @@ a:hover, a:active, a:focus {
   font-weight: bold;
 }
 
+/*---------------------------------------
+    Awards section              
+-----------------------------------------*/
+
+#awards {
+  background:  #ce2e3f;
+}
+
+#awards p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+#awards .awards-thumb {
+  padding: 52px 32px 52px 32px; /* Increased padding for right alignment */
+}
+
+#awards .awards-thumb .fa {
+  font-size: 42px;
+  padding-bottom: 22px;
+}
+
+#awards .awards-img-3 {
+  background: url('../images/Inter-IIt.png') no-repeat;
+  background-size: cover !important;
+  width: 100%;
+  height: 100%;
+  min-height: 75vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#awards .awards-img-4{
+  background: url('../images/hosted-1.png') no-repeat;
+  background-size: cover !important;
+  width: 100%;
+  height: 100%;
+  min-height: 75vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#awards small {
+  color: #886D1E;
+  font-weight: bold;  
+}
+
+.col-md-6 iframe {
+  display: block;
+  margin-left: auto; /* Align the iframe to the right */
+}
 
 
 /*---------------------------------------
@@ -855,6 +948,7 @@ footer {
   #home .container,
   #about .container, 
   #experience .container,
+  #awards .container,
   #service .container,
   #education .container,
   #contact .container {
@@ -864,7 +958,9 @@ footer {
 
   #about .col-md-3,
   #experience .col-md-6,
+  #awards .col-md-6,
   #education .col-md-6,
+  #awards .col-md-12,
   #contact .col-md-3 {
     padding: 0;
     margin: 0;
