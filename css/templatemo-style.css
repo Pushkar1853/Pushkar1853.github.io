@@ -137,6 +137,7 @@ p {
 #experience,
 #education,
 #awards,
+#extra,
 #contact {
   position: relative;
 }
@@ -146,6 +147,7 @@ p {
 #experience .container,
 #service .container,
 #awards .container,
+#extra .container,
 #education .container,
 #contact .container {
   width: 100%;
@@ -155,6 +157,7 @@ p {
 
 #experience .experience-thumb,
 #awards .awards-thumb,
+#extra .extra-thumb,
 #education .education-thumb {
   padding: 22px 42px 42px 42px;
 }
@@ -759,6 +762,135 @@ a:hover, a:active, a:focus {
   margin-left: auto; /* Align the iframe to the right */
 }
 
+/*---------------------------------------
+    extra section              
+-----------------------------------------*/
+
+#extra {
+  background:#e24958;
+}  
+
+#extra p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+#extra .extra-thumb {
+  padding: 52px 32px 52px 32px; /* Increased padding for right alignment */
+}
+
+#extra .extra-thumb .fa {
+  font-size: 42px;
+  padding-bottom: 22px;
+}
+
+/* #extra .extra-img-3 {
+  background: url('../images/music-2.jpeg') no-repeat;
+  background-position: 50% 50% !important;
+  background-size: cover !important;
+  width: 100%;
+  height: 100%;
+  min-height: 75vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+} */
+
+#extra .extra-img-3 {
+  background: url('../images/music-2.jpeg') no-repeat;
+  background-position: 50% 50% !important;
+  background-size: cover !important;
+  width: 100%;
+  height: 100%;
+  min-height: 85vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#extra .extra-img-3::after {
+  content: "";
+  background: url('../images/music-3.png') no-repeat;
+  background-position: 50% 50% !important;
+  background-size: cover !important;
+  width: 100%;
+  height: 100%;
+  min-height:85vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  filter: blur(10px); 
+  transition: opacity 1s ease, filter 1s ease;
+}
+
+#extra .extra-img-3:hover::after {
+  opacity: 1;
+  filter: blur(0); 
+}
+
+/* #extra .extra-img-4{
+  background: url('../images/Onstage.png') no-repeat;
+  background-position: 50% 50% !important;
+  background-size: cover !important;
+  width: 100%;
+  height: 100%;
+  min-height: 75vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+} */
+
+#extra .extra-img-4 {
+  background: url('../images/Onstage.png') no-repeat;
+  background-position: 50% 50% !important;
+  background-size: cover !important;
+  width: 100%;
+  height: 100%;
+  min-height: 85vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#extra .extra-img-4::after {
+  content: "";
+  background: url('../images/Offstage.jpeg') no-repeat;
+  background-position: 50% 50% !important;
+  background-size: cover !important;
+  width: 100%;
+  height: 100%;
+  min-height:85vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  filter: blur(10px); 
+  transition: opacity 1s ease, filter 1s ease;
+}
+
+#extra .extra-img-4:hover::after {
+  opacity: 1;
+  filter: blur(0); 
+}
+
+#extra small {
+  color: #886D1E;
+  font-weight: bold;  
+}
+
 
 /*---------------------------------------
    Quotes section              
@@ -949,6 +1081,7 @@ footer {
   #about .container, 
   #experience .container,
   #awards .container,
+  #extra .container,
   #service .container,
   #education .container,
   #contact .container {
@@ -959,6 +1092,7 @@ footer {
   #about .col-md-3,
   #experience .col-md-6,
   #awards .col-md-6,
+  #extra .col-md-6,
   #education .col-md-6,
   #awards .col-md-12,
   #contact .col-md-3 {
