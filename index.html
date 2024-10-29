@@ -726,14 +726,21 @@ http://www.templatemo.com/tm-498-stimulus
                     <div class="bg-dark col-md-3 col-sm-6">
                          <div class="wow fadeInUp media awards-thumb" data-wow-delay="1.2s">
                               <div class="media-body">
-                                   <iframe class='right' width="300" height="450"
-                                        src="https://www.youtube.com/embed/l67SjylVPN4?si=WvhRWmVXyVxPKtb3"
-                                        title="YouTube video player" frameborder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-                              </div>
-                         </div>
+                                   <!-- Facade image -->
+                                   <img class="video-facade" width="300" height="450" 
+                                        src="https://img.youtube.com/vi/l67SjylVPN4/hqdefault.jpg" 
+                                        data-src="https://www.youtube.com/embed/l67SjylVPN4?si=WvhRWmVXyVxPKtb3"
+                                        title="YouTube video player" alt="Video Thumbnail"
+                                        style="cursor: pointer;">
+                       
+                                   <!-- Lazy-loaded iframe (initially hidden) -->
+                                   <iframe class="lazy-video" width="300" height="450"
+                                           title="YouTube video player" frameborder="0" 
+                                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                           referrerpolicy="strict-origin-when-cross-origin" allowfullscreen 
+                                           style="display: none;"></iframe>
+                               </div>
+                          </div>
                     </div>
                </div>
           </div>
@@ -788,7 +795,7 @@ http://www.templatemo.com/tm-498-stimulus
                </div>
                <div class="row">
                     <div class=" col-md-12 col-sm-6">
-                         <img src="images/paintings.png" style="height: 100%; width: 100%;">
+                         <img src="images/paintings3.webp" style="height: 100%; width: 100%;">
                     </div>
                </div>
           </div>
