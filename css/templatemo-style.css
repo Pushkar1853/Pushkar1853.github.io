@@ -7,7 +7,7 @@ http://www.templatemo.com/tm-498-stimulus
 */
 
 body {
-  background: #f9f2eb;
+  background: #F6F5F1;
   font-family: 'Source Sans Pro', sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -25,18 +25,24 @@ body {
     Typorgraphy              
 -----------------------------------------*/
 
-.bebas-neue-regular {
+/* .bebas-neue-regular {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 65px;
-}
+} */
 
 .dm-sans-400 {
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+}
+
+.opsz {
+  font-family: "salo-variable", sans-serif;
+  font-variation-settings: "opsz" 42;
+  font-size: 70px;
 }
 
 h1,
@@ -74,7 +80,7 @@ h3 {
 }
 
 h4 {
-  color: #5b5a5a;
+  color: #3a3939;
   font-size: 15px;
   font-weight: normal;
   letter-spacing: 2px;
@@ -84,7 +90,7 @@ h4 {
 }
 
 h5 {
-  color: #3b3a3a;
+  color: #333232;
 }
 
 strong {
@@ -93,7 +99,7 @@ strong {
 }
 
 p {
-  color: #3f3f3fd3;
+  color: #333333d3;
   font-size: 18.5px;
   font-weight: 300;
   line-height: 28px;
@@ -119,7 +125,7 @@ p {
 }
 
 .section-btn:hover {
-  background: #cf854d;
+  background: #299884;
   border-color: transparent;
   color: #ffffff;
 }
@@ -176,7 +182,7 @@ footer {
 }
 
 #education {
-  background: #E3AE57;
+  background: #7BC6BD;
 }
 
 .background-image {
@@ -193,11 +199,11 @@ footer {
 }
 
 .color-white {
-  color: #ffffff;
+  color: #F6F5F1;
 }
 
 .color-yellow {
-  color: #c59547;
+  color: #7BC6BD;
 }
 
 .color-black {
@@ -205,40 +211,41 @@ footer {
 }
 
 .color-orange {
-  color: #e9724c;
+  color: #22A993;
 }
 
 .bg-orange {
-  background: #e9724c;
+  background: #22A993;
 }
 
 .bg-yellow {
-  background: #E3AE57;
+  background: #7BC6BD;
 }
 
 .bg-red {
-  background: #ce2e3f;
+  background: #22A993;
 }
 
 .bg-white {
-  background: #ffffff;
+  background: #F6F5F1;
 }
 
 .bg-pink {
-  background: #f87b7b;
+  background: #7BC6BD;
 }
 
 .bg-midpink {
-  background: #e24958;
+  background: #299884;
 }
 
 .bg-dark {
-  background: #171717;
+  background: #2D2D2D;
 }
 
 .bg-lemon {
-  background: #e29056ee;
+  background: #7BC6BD;
 }
+
 
 
 
@@ -251,7 +258,7 @@ html {
 }
 
 a {
-  color: #E3AE57;
+  color: #7BC6BD;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -262,7 +269,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #E3AE57;
+  color: #7BC6BD;
   outline: none;
 }
 
@@ -296,7 +303,7 @@ a:focus {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  background: none repeat scroll 0 0 #ffffff;
+  background: none repeat scroll 0 0 #F6F5F1;
 }
 
 .spinner {
@@ -316,8 +323,8 @@ a:focus {
   margin-top: -10px;
   margin-left: -10px;
   border-radius: 50%;
-  border: 2px solid #E3AE57;
-  border-top-color: #f9f9f9;
+  border: 2px solid #22A993;
+  border-top-color: #F6F5F1;
   animation: spinner .6s linear infinite;
 }
 
@@ -341,12 +348,12 @@ a:focus {
 
 .custom-navbar {
   margin-bottom: 0;
-  background-color: #ffffff;
+  background-color: #F6F5F1;
 }
 
 .custom-navbar .navbar-brand {
-  color: #333;
-  text-shadow: 1px 1px #fff;
+  color: #151515;
+  text-shadow: 1px 1px #F6F5F1;
   font-weight: bold;
   font-size: 24px;
   line-height: 35px;
@@ -354,7 +361,7 @@ a:focus {
 }
 
 .custom-navbar .nav li a {
-  color: #666;
+  color: #393939;
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 1px;
@@ -365,7 +372,7 @@ a:focus {
 
 .custom-navbar .nav li a:hover {
   background: transparent;
-  color: #c59242;
+  color: #299884;
 }
 
 .custom-navbar .navbar-nav>li>a:hover,
@@ -375,7 +382,7 @@ a:focus {
 
 .custom-navbar .nav li.active>a {
   background-color: transparent;
-  color: #c08f42;
+  color: #299884;
 }
 
 .custom-navbar .navbar-toggle {
@@ -388,7 +395,7 @@ a:focus {
 }
 
 .custom-navbar .navbar-toggle .icon-bar {
-  background: #E3AE57;
+  background: #299884;
   border-color: transparent;
 }
 
@@ -407,7 +414,7 @@ a:focus {
   }
 
   .custom-navbar.top-nav-collapse {
-    background: #ffffff;
+    background: #F6F5F1;
     box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
     padding: 0;
   }
@@ -425,7 +432,7 @@ a:focus {
 }
 
 #home .col-md-6 {
-  background: #ebcab3;
+  background: #7BC6BD;
   /* light blue color: #c3eafd; */
   padding-right: 0;
   padding-left: 0;
@@ -468,14 +475,14 @@ a:focus {
 }
 
 #about .progress {
-  background: #ffffff;
+  background: #F6F5F1;
   border-radius: 0px;
   box-shadow: none;
   height: 2px;
 }
 
 #about .progress-bar-primary {
-  background: #232B2B;
+  background: #2D2D2D;
 }
 
 #about strong,
@@ -492,7 +499,7 @@ a:focus {
 -----------------------------------------*/
 
 #service {
-  background: #2b335f;
+  background: #197261;
 }
 
 #service p {
@@ -529,7 +536,7 @@ a:focus {
 -----------------------------------------*/
 
 #experience {
-  background: #e38745ee;
+  background: #22A993;
 }
 
 /* #e29056ee */
@@ -713,7 +720,7 @@ a:focus {
 -----------------------------------------*/
 
 #education {
-  background: #E3AE57;
+  background: #7BC6BD;
 }
 
 #education .education-img {
@@ -736,7 +743,7 @@ a:focus {
 }
 
 #education small {
-  color: #886D1E;
+  color: #7BC6BD;
   font-weight: bold;
 }
 
@@ -745,7 +752,7 @@ a:focus {
 -----------------------------------------*/
 
 #awards {
-  background: #ce2e3f;
+  background: #299884;
 }
 
 #awards p {
@@ -790,7 +797,7 @@ a:focus {
 }
 
 #awards small {
-  color: #886D1E;
+  color: #7BC6BD;
   font-weight: bold;
 }
 
@@ -805,7 +812,7 @@ a:focus {
 -----------------------------------------*/
 
 #extra {
-  background: #e24958;
+  background: #299884;
 }
 
 #extra p {
@@ -963,13 +970,13 @@ a:focus {
   background: url('../images/Alphafold-1.webp') 50% 0 repeat-y fixed;
   background-size: cover;
   background-position: center center;
-  color: #ffffff;
+  color: #F6F5F1;
   position: relative;
   padding: 100px 0px;
 }
 
 #quotes .overlay {
-  background: #121212;
+  background: #000000;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -993,7 +1000,7 @@ a:focus {
 -----------------------------------------*/
 
 #contact {
-  background: #E9724C;
+  background: #299884;
 }
 
 #contact .contact-form,
@@ -1028,7 +1035,7 @@ a:focus {
 #contact .form-control {
   background: transparent;
   border: none;
-  border-bottom: 1px solid #E3AE57;
+  border-bottom: 1px solid #7BC6BD;
   border-radius: 0px;
   box-shadow: none;
   color: #ffffff;
@@ -1106,7 +1113,7 @@ footer {
 
 .social-icon li a {
   border: 2px solid transparent;
-  color: #999;
+  color: #5e5e5e;
   border-radius: 100px;
   cursor: pointer;
   font-size: 16px;
@@ -1139,14 +1146,14 @@ footer {
 }
 
 .social-icon li a:hover {
-  background: #E3AE57;
+  background: #CAE9DA;
   border-color: #ffffff;
   color: #ffffff;
   transform: scale(1.1);
 }
 
 .social-icon-center li a:hover {
-  background: #E3AE57;
+  background: #CAE9DA;
   border-color: #ffffff;
   color: #ffffff;
   transform: scale(1.1);
@@ -1158,6 +1165,7 @@ footer {
 -----------------------------------------*/
 
 @media only screen and (max-width: 580px) {
+  /* Existing styles */
   h1 {
     font-size: 32px;
   }
@@ -1177,9 +1185,37 @@ footer {
     padding: 8px 20px;
   }
 
-  .home-img {
-    height: 40vh;
-    /* Further reduce image height */
+  /* Hide images on mobile */
+  #home .home-img,
+  #contact .contact-img,
+  #service .service-img-3,
+  #about .about-img,
+  #extra .extra-img-3 {
+    display: none;
+  }
+
+  /* Add top spacing for welcome text on mobile */
+  #home .home-thumb {
+    padding-top: 60px !important;
+  }
+
+  /* Reduce bottom space after contact info */
+  #contact .contact-thumb {
+    padding-bottom: 10px !important;
+    min-height: auto !important;
+  }
+
+  #contact .contact-info {
+    margin-bottom: 15px;
+  }
+
+  /* Adjust layout when images are hidden */
+  #home .col-md-6,
+  #contact .col-md-6,
+  #service .col-md-6,
+  #about .col-md-6,
+  #extra .col-md-6 {
+    width: 100%;
   }
 
   .custom-navbar .nav li a {
@@ -1193,6 +1229,7 @@ footer {
 
   footer {
     font-size: 12px;
+    padding: 40px 0 !important; /* Reduced footer padding on mobile */
   }
 }
 
@@ -1203,10 +1240,30 @@ footer {
 
   #home .home-thumb {
     height: auto;
-    padding-top: 32px;
+    padding-top: 60px !important;
     padding-bottom: 12px;
   }
 
+  /* Hide images on mobile */
+  #home .home-img,
+  #contact .contact-img,
+  #service .service-img-3,
+  #about .about-img,
+  #extra .extra-img-3 {
+    display: none;
+  }
+
+  /* Reduce contact section spacing */
+  #contact .contact-thumb {
+    padding-bottom: 10px !important;
+    min-height: auto !important;
+  }
+
+  #contact .contact-info {
+    margin-bottom: 15px;
+  }
+
+  /* Adjust containers */
   #home .container,
   #about .container,
   #experience .container,
@@ -1229,6 +1286,14 @@ footer {
   #contact .col-md-3 {
     padding: 0;
     margin: 0;
+  }
+
+  /* Adjust sections that had images */
+  #service .service-thumb,
+  #about .about-thumb,
+  #extra .extra-thumb {
+    width: 100%;
+    padding: 32px 22px;
   }
 
   .background-image {
@@ -1254,11 +1319,6 @@ footer {
     padding: 10px 24px;
   }
 
-  .home-img {
-    height: 50vh;
-    /* Reduce image height for smaller screens */
-  }
-
   .custom-navbar .nav li a {
     font-size: 12px;
   }
@@ -1268,11 +1328,16 @@ footer {
     line-height: 24px;
   }
 
-  /* Adjust the layout to stack sections vertically */
+  /* Adjust the layout when images are hidden */
   .col-md-6 {
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
+  }
+
+  /* Reduce footer padding on mobile */
+  footer {
+    padding: 40px 0;
   }
 }
 
