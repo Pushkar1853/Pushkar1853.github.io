@@ -1160,6 +1160,7 @@ footer {
 -----------------------------------------*/
 
 @media only screen and (max-width: 580px) {
+
   /* Existing styles */
   h1 {
     font-size: 32px;
@@ -1188,7 +1189,9 @@ footer {
   #experience .experience-img-4,
   #experience .experience-img-5,
   #experience .experience-img-3,
+  #experience .not-mobile,
   #about .about-img,
+  #awards .media-body2,
   #about .about-img-2,
   #extra .extra-img-3 {
     display: none;
@@ -1229,7 +1232,8 @@ footer {
 
   footer {
     font-size: 12px;
-    padding: 40px 0 !important; /* Reduced footer padding on mobile */
+    padding: 40px 0 !important;
+    /* Reduced footer padding on mobile */
   }
 }
 
